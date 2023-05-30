@@ -1,0 +1,143 @@
+.background{
+    background-image:url('images/background.png');
+}
+
+.wrapper{
+    margin: auto;
+    width: 95%;
+}
+
+
+
+.headerImage{
+    width: 100%;
+    height: 300px;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#4a3012;
+    padding: 10px;
+}
+
+.menu{
+    color: orange;
+    font-size: 25px;
+    font-family:Arial;
+    text-decoration: none;
+}
+
+.topContent{
+    background:url('images/topbkg.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleContainer{
+    /* height:100; */
+	text-align:center;
+	font-family:vivaldi;
+	font-size:60px;
+	padding-top:50px;
+}
+
+.title{
+    font-family:vivaldi;
+    font-size:35px;
+}
+
+.midContent{
+    background:url('images/midbkg.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeImage{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.descriptionContainer{
+    text-align:justify; 
+    font-family:Segoe UI, Segoe Script, Segoe Print; 
+    color:rgb(82, 54, 25); 
+    font-size:20px;
+    width: 70%;
+}
+
+.footer{
+	background:url('images/botbkg.png');
+    background-size: cover;
+	width:100%;
+	font-family:vivaldi;
+	font-size:28px;
+	color:black;
+	text-align:center;
+	padding-top:50px;
+}
+
+.outerTable{
+    width:65%;
+	color:rgb(82, 54, 25);
+	font-family:Segoe UI, Segoe Script, Segoe Print;
+	font-size:19px;
+    margin-top: 50px;
+}
+
+.foodImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.drinkImage{
+    width:130px;
+	height:200px;
+}
+
+.detailTable{
+    color: rgb(82, 54, 25);
+}
+
+.itemContainer{
+    display: flex;
+    margin-top: 50px;
+    column-gap: 25px;
+}
+
+.itemImageContainer{
+    width:230px;
+	height:150px;
+}
+
+.itemDetailContainer{
+    display: flex;
+    align-self: center;
+    column-gap: 20px;
+}
+
+.itemTitleContainer{
+    display: flex;
+    /* width: 80%; */
+    flex-direction: column;
+}
+
+.itemDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.drinkImage{
+    width:130px;
+	height:200px;
+}
